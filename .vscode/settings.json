@@ -1,0 +1,11 @@
+{
+    "python-envs.defaultEnvManager": "ms-python.python:venv",
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "Sales DB",
+            "database": "${workspaceFolder:retail-sales-pipeline}/db/sales.db"
+        }
+    ]
+}
